@@ -1,5 +1,12 @@
+import Navbar from "./components/Navbar/Navbar";
+
 const App = () => {
-  return <div className="font-bold text-rose-500 text-xl">Hello AirBnB!</div>;
+  return (
+    <div>
+      <Navbar />
+      
+    </div>
+  );
 };
 
 export default App;
